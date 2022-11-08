@@ -1,55 +1,54 @@
-# Deep-Learning-for-Genomics
+# Deep Learning for Genomics
 
-<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://static.packt-cdn.com/products/9781801079297/cover/smaller" alt="Actionable Insights with Amazon QuickSight" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://m.media-amazon.com/images/I/414ZgQYBCqL.jpg" alt="Deep Learning for Genomics" height="256px" align="right"></a>
 
-This is the code repository for [Actionable Insights with Amazon QuickSight](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
+This is the code repository for [Deep Learning for Genomics](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
 
-**Develop stunning data visualizations and machine learning-driven insights with Amazon QuickSight**
+**Data-driven approaches for genomics applications in life sciences and biotechnology**
 
 ## What is this book about?
 
-The adoption of cloud-native BI tools, like Amazon QuickSight, enables organizations to gather insights from data at scale. This book is a practical guide to performing simple-to-advanced tasks with Amazon QuickSight.
+Deep learning has shown remarkable promise in the field of genomics; however, there is a lack of a skilled deep learning workforce in this discipline. This book will help researchers and data scientists to stand out from the rest of the crowd and solve real-world problems in genomics by developing the necessary skill set. Starting with an introduction to the essential concepts, this book highlights the power of deep learning in handling big data in genomics. First, you’ll learn about 
 
-You’ll begin by learning QuickSight’s fundamental concepts and how to configure data sources. Next, you’ll be introduced to the main analysis-building functionality of QuickSight to develop visuals and dashboards. The book will also demonstrate how to develop and share interactive dashboards with parameters and on-screen controls. Advanced filtering options with URL actions will then be covered, before learning how to set up alerts and scheduled reports. Later, you’ll explore the Insights visual type in QuickSight using both existing insights and by building custom insights. Further chapters will show you how to add machine learning insights such as forecasting capabilities, analyzing time series data, adding narratives, and outlier detection to your dashboards. You’ll also explore patterns to automate operations and look closer into the API actions that allow us to control settings. Finally, you’ll learn advanced topics such as embedded dashboards and multitenancy.
+conventional genomics analysis, then transition to state-of-the-art machine learning-based genomics applications, and finally dive into deep learning approaches for genomics. The book covers all of the important deep learning algorithms commonly used by the research community and goes into the details of what they are, how they work, and their practical applications in genomics. The book dedicates an entire section to operationalizing deep learning models, which will provide the necessary hands-on tutorials for researchers and any deep learning practitioners to build, tune, interpret, deploy, evaluate, and monitor deep learning models from genomics big data sets.
 
-By the end of this book, you’ll be well-versed with QuickSight’s BI and analytics functionalities that will help you create BI apps with ML capabilities.
+By the end of this book, you’ll have learned about the challenges, best practices, and pitfalls of deep learning for genomics.
 
 This book covers the following exciting features: 
-* Understand the wider AWS analytics ecosystem and how QuickSight fits within it
-* Set up and configure data sources with Amazon QuickSight
-* Include custom controls and add interactivity to your BI application using parameters
-* Add ML insights such as forecasting, anomaly detection, and narratives
-* Explore patterns to automate operations using QuickSight APIs
-* Create interactive dashboards and storytelling with Amazon QuickSight
-* Design an embedded multi-tenant analytics architecture
-* Focus on data permissions and how to manage Amazon QuickSight operations
+* Discover the machine learning applications for genomics
+* Explore deep learning concepts and methodologies for genomics applications
+* Understand supervised deep learning algorithms for genomics applications
+* Get to grips with unsupervised deep learning with autoencoders
+* Improve deep learning models using generative models
+* Operationalize deep learning models from genomics datasets
+* Visualize and interpret deep learning models
+* Understand deep learning challenges, pitfalls, and best practices
 
-If you feel this book is for you, get your [copy](https://www.amazon.in/Actionable-Insights-Amazon-QuickSight-learning-driven/dp/1801079293/ref=sr_1_1?keywords=Actionable+Insights+with+Amazon+QuickSight&qid=1638759116&sr=8-1) today!
-
-<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" alt="https://www.packtpub.com/" border="5" /></a>
+If you feel this book is for you, get your [copy](https://www.amazon.in/Deep-Learning-Genomics-methodologies-Biotechnology-ebook/dp/B0BJ5DF6QB/ref=sr_1_3?keywords=Deep+Learning+for+Genomics&qid=1667888568&sr=8-3) today!
 
 ## Instructions and Navigations
 All of the code is organized into folders.
 
 The code will look like the following:
 ```
-$aws quicksight update-user --user-name author-iam --role
-AUTHOR --custom-permissions-name custom-author --email <youremail>
---aws-account-id <account-id> --namespace default
---region us-east-1
+# covid19_features.py
+from Bio import SeqIO
 ```
 **Following is what you need for this book:**
-This book is for business intelligence (BI) developers and data analysts who are looking to create interactive dashboards using data from Lake House on AWS with Amazon QuickSight. This book will also be useful for anyone who wants to learn Amazon QuickSight in depth using practical examples. You will need to be familiar with general data visualization concepts, however, no prior experience with Amazon QuickSight is required.
+This deep learning book is for machine learning engineers, data scientists, and academicians practicing in the field of genomics. It assumes that readers have intermediate Python programming knowledge, basic knowledge of Python libraries such as NumPy and Pandas to manipulate and parse data, Matplotlib, and Seaborn for visualizing data, along with a base in genomics and genomic analysis concepts.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-10).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-12).
 
 ### Software and Hardware List
 
 | Chapter  | Software required                                                                    | OS required                        |
 | -------- | -------------------------------------------------------------------------------------| -----------------------------------|
-|  	1-10	   |   	AWS Web Services(AWS) with a recent version of a modern web browser(Chrome, Edge, etc.)                                  			  | Any OS | 		
+|  	1-12	   |   Python 3                                			  | Any OS | 		
+|  	1-12	   |   	Jupyter Notebook                                  			  | Any OS | 		
+|  	1-12	   |   	Hugging face                                  			  | Any OS | 		
+|  	1-12	   |   	Keras                                  			  | Any OS | 		
+|  	1-12	   |   	Google Colab                                  			  | Any OS | 		
 
-We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781801079297_ColorImages.pdf).
 
 ### Related products <Other books you may enjoy>
 * Machine Learning with Amazon SageMaker Cookbook  [[Packt]](https://www.packtpub.com/product/machine-learning-with-amazon-sagemaker-cookbook/9781800567030) [[Amazon]](https://www.amazon.in/Machine-Learning-Amazon-SageMaker-Cookbook/dp/1800567030/ref=sr_1_3?keywords=Machine+Learning+with+Amazon+SageMaker+Cookbook&qid=1638759383&sr=8-3)
@@ -57,4 +56,12 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * Amazon Redshift Cookbook  [[Packt]](https://www.packtpub.com/product/amazon-redshift-cookbook/9781800569683) [[Amazon]](https://www.amazon.in/Amazon-Redshift-Cookbook-warehousing-solutions/dp/1800569688/ref=sr_1_1?keywords=Amazon+Redshift+Cookbook&qid=1638759416&sr=8-1)
   
 ## Get to Know the Author
-**Manos Samatas** is a Solutions Architect specializing in Big Data and Analytics. He has several years of experience developing and designing big data applications for various industries, including telecommunications, cybersecurity, healthcare, and public sector. He is an accredited AWS Subject Matter Expert (SME) in Analytics and he is certified with the AWS Data Analytics Specialty and the AWS Solutions Architect Professional certifications. Manos lives in London with his fiancé Gabriela. In his free time, he enjoys traveling, socializing with friends, and taking care of his plants.
+**Dr. Upendra Kumar Devisetty** has a Ph.D. in agriculture and over 12 years of experience working in Next-Generation Sequencing. He has a deep background in genomics and bioinformatics with a specialization in applying predictive analytics across a varied set of genomics problems in life sciences. Dr. Devisetty is currently working as a senior data science manager at Greenlight Biosciences, where he leads a team of bioinformatics scientists and data scientists to support the various bioinformatics and data science projects at GreenLight Biosciences with a mission to create mRNA-based solutions that can provide a cleaner environment and healthier people.
+
+*Note from the author:**
+
+You can use the resources provided in this GitHub repo as you work through the hands-on activities includes in each chapter of the book. This repo is laid out with resources matched to each chapter of the book - such as the JSON used to define IAM policies, sample files, relevant links, etc. 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800560413">https://packt.link/free-ebook/9781800560413 </a> </p>
