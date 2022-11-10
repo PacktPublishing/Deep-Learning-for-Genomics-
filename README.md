@@ -1,8 +1,8 @@
 # Deep Learning for Genomics
 
-<a href="https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297"><img src="https://m.media-amazon.com/images/I/414ZgQYBCqL.jpg" alt="Deep Learning for Genomics" height="256px" align="right"></a>
+<a href="https://www.amazon.in/Deep-Learning-Genomics-methodologies-Biotechnology-ebook/dp/B0BJ5DF6QB/ref=sr_1_3?keywords=Deep+Learning+for+Genomics&qid=1667888568&sr=8-3"><img src="https://m.media-amazon.com/images/I/414ZgQYBCqL.jpg" alt="Deep Learning for Genomics" height="256px" align="right"></a>
 
-This is the code repository for [Deep Learning for Genomics](https://www.packtpub.com/product/actionable-insights-with-amazon-quicksight/9781801079297), published by Packt.
+This is the code repository for [Deep Learning for Genomics](https://www.amazon.in/Deep-Learning-Genomics-methodologies-Biotechnology-ebook/dp/B0BJ5DF6QB/ref=sr_1_3?keywords=Deep+Learning+for+Genomics&qid=1667888568&sr=8-3), published by Packt.
 
 **Data-driven approaches for genomics applications in life sciences and biotechnology**
 
